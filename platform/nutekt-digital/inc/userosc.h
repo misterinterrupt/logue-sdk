@@ -172,13 +172,13 @@ extern "C" {
    * Rendering callback. Must be implemented by your custom effect.
    *
    * @param params Current realtime parameter state.
-   * @param yn Output buffer. (1 sample per frame)
-   * @param frames Size of output buffer.
+   * @param firstFrame Output buffer. (1 sample per frame)
+   * @param numFrames Size of output buffer.
    *
    * @note Implementation must support at least up to 64 frames.
    * @note Optimize for powers of two.
    */  
-  void _hook_cycle(const user_osc_param_t * const params, int32_t *yn, const uint32_t frames);
+  void _hook_cycle(const user_osc_param_t * const params, int32_t *firstFrame, const uint32_t numFrames);
 
   /**
    * Note on callback. Must be implemented by your custom effect.

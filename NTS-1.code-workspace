@@ -1,0 +1,56 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cstdint": "cpp",
+			"random": "cpp",
+			"*.tcc": "cpp",
+			"atomic": "cpp",
+			"bitset": "cpp",
+			"iosfwd": "cpp",
+			"iostream": "cpp",
+			"streambuf": "cpp",
+			"*.def": "cpp"
+		},
+		"C_Cpp.default.cppStandard": "gnu++14",
+		"C_Cpp.default.cStandard": "gnu18",
+		"C_Cpp.default.intelliSenseMode": "gcc-arm",
+		"C_Cpp.experimentalFeatures": "Enabled",
+		"C_Cpp.default.browse.limitSymbolsToIncludedHeaders": false,
+		"C_Cpp.default.includePath": [
+			"/Users/interrupt/PROJECTS/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/lib/gcc/**"
+		],
+		"C_Cpp.vcFormat.space.removeAroundMemberOperators": false,
+		"C_Cpp.default.compilerPath": "/Users/interrupt/PROJECTS/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-gcc",
+		"C_Cpp.default.compilerArgs": [
+			"-c",
+			"-mcpu=cortex-m4",
+			"-mthumb",
+			"-mno-thumb-interwork",
+			"-DTHUMB_NO_INTERWORKING",
+			"-DTHUMB_PRESENT",
+			"-g",
+			"-Os",
+			"-mlittle-endian",
+			"-mfloat-abi=hard",
+			"-mfpu=fpv4-sp-d16",
+			"-fsingle-precision-constant",
+			"-fcheck-new",
+			"-std=c11",
+			"-mstructure-size-boundary=8",
+			"-W",
+			"-Wall",
+			"-Wextra",
+			"-Wa,",
+			"-alms=./build/lst/",
+			"-DSTM32F446xE",
+			"-DCORTEX_USE_FPU=TRUE",
+			"-DARM_MATH_CM4",
+			"-D__FPU_PRESENT"
+		]
+	}
+}
